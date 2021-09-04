@@ -36,4 +36,4 @@ const handleLogin = async  () =>
   console.log("Completed Authentication on " + new Date().toString());
 }
 
-setTimeout(handleLogin, 1000 * 60 * 2);
+setInterval(handleLogin, 1000 * 60 * 2);
