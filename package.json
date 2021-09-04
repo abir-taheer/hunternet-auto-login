@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "hunternet-auto-login",
+  "version": "1.0.0",
+  "description": "automatically re-authenticates on hunter dorm wifi when necessary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abir-taheer/hunternet-auto-login.git"
+  },
+  "author": "Abir Taheer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abir-taheer/hunternet-auto-login/issues"
+  },
+  "homepage": "https://github.com/abir-taheer/hunternet-auto-login#readme"
+}
