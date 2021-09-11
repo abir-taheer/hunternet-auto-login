@@ -34,6 +34,8 @@ const handleLogin = async  () =>
   await page.click('input[type=\"submit\"]');
   await page.waitForNavigation();
   console.log("Completed Authentication on " + new Date().toString());
+  await page.close();
+  await browser.close();
 }
 
 setInterval(handleLogin, 1000 * 60 * 2);
